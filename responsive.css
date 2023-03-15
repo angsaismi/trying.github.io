@@ -1,0 +1,168 @@
+@media (max-width: 1000px) {
+header {
+  background-color: black;
+  height: 100%;
+  width: 97%;
+}
+
+.heading img {
+  width: 35%;
+  margin-left: 33%;
+}
+.heading h1, h2{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.top {
+  width: 97%;
+  background-color: rgb(241, 238, 238);
+  height: 300px;
+}
+
+.top p {
+  font-size: 20px;
+}
+.top h5 {
+  font-size: 35px;
+}
+
+.contents h3 {
+  text-align: center;
+}
+.content {
+  width: 500px;
+  
+}
+.content-item p {
+  margin-left: 100px;
+}
+.content-item {
+  width: 190px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.form {
+  background-color: rgb(241, 238, 238);
+  width: 97%;
+}
+
+footer {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  height: 250px;
+  width: 97%;
+}
+}
+
+@media (max-width: 670px) {
+  body{
+    background-color: white;
+  }
+  header {
+    width: 100%;
+  }  
+  .header {
+      background-color: black;
+      text-align: center;
+    }
+    .header-list li {
+      float: left;
+    }
+    .header-logo {
+      font-size: 24px;
+    }
+    
+    .heading {
+      background-color: white;
+    }
+     .heading img {
+      width: 50%;
+      padding-left: 10px;
+      padding-right: 100px;
+     }
+    .heading h1 {
+      margin-top: 30px;
+      
+    }
+    .heading h1, h2 {
+      width: 100%;
+      color: black;
+      font-size: 35px;
+      text-align: center;
+    }
+   
+
+    .top {
+        width: 100%;
+        height: 150%;
+        padding-right: 20px;
+      }
+
+    .content {
+      background-color: white;
+      height: 50%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    .contents h3 {
+      padding-left: 30px;
+    }
+    .content img {
+      width: 200%;
+      padding: 20px 30px 20px 50px;
+      margin-left: 20px;
+      margin-right: 50px;
+      
+    }
+    
+    .form {
+      width: 100%;
+      
+    }
+
+    
+    .email input{
+      padding: 20px 45px;
+      border-top: white;
+      border-left: white;
+    }
+
+    input, textarea {
+      text-align: center;
+      flex: auto;
+      padding: 20px 50px;
+      border-color: white;
+    }
+
+    button {
+      padding: 20px 30px;
+    }
+
+    footer {
+      width: 100%;
+    }
+    .footer {
+      padding-top: 30px;
+      text-align: center;
+      background-color: black;
+      height: 200%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      
+      
+    }
+    .footer-logo {
+      font-size: 24px;
+      float: left;
+    }
+    .footer-list li {
+      padding-right: 80px;
+    }
+  }
