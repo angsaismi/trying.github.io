@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: left;
+}
+
+
+
+li {
+    list-style: none;
+    
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    color: white;
+    opacity: 0.7;
+}
+
+.header-logo {
+    float: left;
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 30px;
+}
+
+.header-list li {
+    float: left;
+    font-size: 15px;
+    padding: 20px 20px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 70px;
+}
+
+span {
+    color: rgb(240, 199, 18);
+}
+
+.heading h2 {
+    text-align: center;
+    font-family: 'Arial Narrow';
+    letter-spacing: 2px;
+    font-weight:lighter;
+    font-size: 30px;
+}
+
+
+.heading img {
+    width: 300px;
+    margin-left: 40%;
+    
+}
+@keyframes zoom-in-out {
+    25% { transform: scale(0.6); }
+  }
+  
+  img {
+    animation-name: zoom-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+.top {
+    background-color: rgb(241, 238, 238);
+    height: 200px;
+}
+
+.top h5,p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top h5 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px 0 20px;
+}
+
+.top p {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px 50px 3px 50px;
+}
+
+.contents h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+}
+
+.content {
+    display: flex;
+    padding-bottom: 100px;
+    margin-left: 2%;
+}
+
+.content-item img {
+    width: 430px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    flex: auto;
+    
+}
+
+.form {
+    background-color: rgb(241, 238, 238);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.forms {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+.email {
+    opacity: 0.5;
+    padding: 20px 20px;
+    
+}
+
+.message {
+    opacity: 0.5;
+    padding: 20px 50px;
+}
+
+.form input,textarea {
+    padding: 20px 200px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: yellow;
+    border: 0 solid white;
+    padding: 20px 200px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    height: 150px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 30px;
+}
+
+.footer-list {
+    float: right;
+    font-size: 15px;
+    
+}
+
+.footer-list li {
+    padding: 10px 40px;
+}
